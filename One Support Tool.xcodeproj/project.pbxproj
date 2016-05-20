@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84662B1A1C69ECE10017708A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84662B191C69ECE10017708A /* AppDelegate.swift */; };
+		84662B1E1C69ECE10017708A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84662B1D1C69ECE10017708A /* Assets.xcassets */; };
+		84662B211C69ECE10017708A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84662B1F1C69ECE10017708A /* Main.storyboard */; };
+		84845EEB1CCD33AD00473D30 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84845EEA1CCD33AC00473D30 /* NetworkViewController.swift */; };
+		84845EEE1CCD44D600473D30 /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = 84845EEC1CCD44D600473D30 /* network.c */; };
+		8484C34B1C734CBD0053675A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484C34A1C734CBD0053675A /* ContactViewController.swift */; };
+		848B263A1CC9133200EF76C1 /* EvryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B26391CC9133200EF76C1 /* EvryViewController.swift */; };
+		84A827CE1CCB9FE50011E7A2 /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84A827CC1CCB9FE50011E7A2 /* cutils.c */; };
+		84D813CE1C6DC70B00527693 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D813CD1C6DC70B00527693 /* SystemViewController.swift */; };
+		84D813D01C6DD50D00527693 /* RemoteControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D813CF1C6DD50D00527693 /* RemoteControlViewController.swift */; };
+		84D813D21C6DD81B00527693 /* NewTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D813D11C6DD81B00527693 /* NewTicketViewController.swift */; };
+		84FBCA821C71C6A000EA426B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBCA811C71C6A000EA426B /* UserViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84662B161C69ECE10017708A /* One Support Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Support Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84662B191C69ECE10017708A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84662B1D1C69ECE10017708A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84662B201C69ECE10017708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84662B221C69ECE10017708A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84845EEA1CCD33AC00473D30 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		84845EEC1CCD44D600473D30 /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
+		84845EED1CCD44D600473D30 /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		8484C34A1C734CBD0053675A /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		848B26391CC9133200EF76C1 /* EvryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvryViewController.swift; sourceTree = "<group>"; };
+		84A827CB1CCB9FE40011E7A2 /* One Support Tool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "One Support Tool-Bridging-Header.h"; sourceTree = "<group>"; };
+		84A827CC1CCB9FE50011E7A2 /* cutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutils.c; sourceTree = "<group>"; };
+		84A827CD1CCB9FE50011E7A2 /* cutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cutils.h; sourceTree = "<group>"; };
+		84D813CD1C6DC70B00527693 /* SystemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		84D813CF1C6DD50D00527693 /* RemoteControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteControlViewController.swift; sourceTree = "<group>"; };
+		84D813D11C6DD81B00527693 /* NewTicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTicketViewController.swift; sourceTree = "<group>"; };
+		84FBCA811C71C6A000EA426B /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84662B131C69ECE10017708A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84662B0D1C69ECE10017708A = {
+			isa = PBXGroup;
+			children = (
+				84662B181C69ECE10017708A /* One Support Tool */,
+				84662B171C69ECE10017708A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84662B171C69ECE10017708A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84662B161C69ECE10017708A /* One Support Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84662B181C69ECE10017708A /* One Support Tool */ = {
+			isa = PBXGroup;
+			children = (
+				84A827CC1CCB9FE50011E7A2 /* cutils.c */,
+				84845EEC1CCD44D600473D30 /* network.c */,
+				84845EED1CCD44D600473D30 /* network.h */,
+				84A827CD1CCB9FE50011E7A2 /* cutils.h */,
+				84662B191C69ECE10017708A /* AppDelegate.swift */,
+				84D813CD1C6DC70B00527693 /* SystemViewController.swift */,
+				84662B1D1C69ECE10017708A /* Assets.xcassets */,
+				84662B1F1C69ECE10017708A /* Main.storyboard */,
+				84FBCA811C71C6A000EA426B /* UserViewController.swift */,
+				84662B221C69ECE10017708A /* Info.plist */,
+				848B26391CC9133200EF76C1 /* EvryViewController.swift */,
+				84D813CF1C6DD50D00527693 /* RemoteControlViewController.swift */,
+				84D813D11C6DD81B00527693 /* NewTicketViewController.swift */,
+				84845EEA1CCD33AC00473D30 /* NetworkViewController.swift */,
+				8484C34A1C734CBD0053675A /* ContactViewController.swift */,
+				84A827CB1CCB9FE40011E7A2 /* One Support Tool-Bridging-Header.h */,
+			);
+			path = "One Support Tool";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84662B151C69ECE10017708A /* One Support Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84662B251C69ECE10017708A /* Build configuration list for PBXNativeTarget "One Support Tool" */;
+			buildPhases = (
+				84662B121C69ECE10017708A /* Sources */,
+				84662B131C69ECE10017708A /* Frameworks */,
+				84662B141C69ECE10017708A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Support Tool";
+			productName = "One Support Tool";
+			productReference = 84662B161C69ECE10017708A /* One Support Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84662B0E1C69ECE10017708A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EVRY;
+				TargetAttributes = {
+					84662B151C69ECE10017708A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 2D7T4D2BJY;
+					};
+				};
+			};
+			buildConfigurationList = 84662B111C69ECE10017708A /* Build configuration list for PBXProject "One Support Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84662B0D1C69ECE10017708A;
+			productRefGroup = 84662B171C69ECE10017708A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84662B151C69ECE10017708A /* One Support Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84662B141C69ECE10017708A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84662B1E1C69ECE10017708A /* Assets.xcassets in Resources */,
+				84662B211C69ECE10017708A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84662B121C69ECE10017708A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D813D01C6DD50D00527693 /* RemoteControlViewController.swift in Sources */,
+				84FBCA821C71C6A000EA426B /* UserViewController.swift in Sources */,
+				84D813D21C6DD81B00527693 /* NewTicketViewController.swift in Sources */,
+				84D813CE1C6DC70B00527693 /* SystemViewController.swift in Sources */,
+				84845EEE1CCD44D600473D30 /* network.c in Sources */,
+				848B263A1CC9133200EF76C1 /* EvryViewController.swift in Sources */,
+				84A827CE1CCB9FE50011E7A2 /* cutils.c in Sources */,
+				84662B1A1C69ECE10017708A /* AppDelegate.swift in Sources */,
+				84845EEB1CCD33AD00473D30 /* NetworkViewController.swift in Sources */,
+				8484C34B1C734CBD0053675A /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84662B1F1C69ECE10017708A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84662B201C69ECE10017708A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84662B231C69ECE10017708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYMROOT = Applications;
+			};
+			name = Debug;
+		};
+		84662B241C69ECE10017708A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SYMROOT = Applications;
+			};
+			name = Release;
+		};
+		84662B261C69ECE10017708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "One Support Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EVRY.One-Support-Tool-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "One Support Tool/One Support Tool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84662B271C69ECE10017708A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "One Support Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EVRY.One-Support-Tool-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "One Support Tool/One Support Tool-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84662B111C69ECE10017708A /* Build configuration list for PBXProject "One Support Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84662B231C69ECE10017708A /* Debug */,
+				84662B241C69ECE10017708A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84662B251C69ECE10017708A /* Build configuration list for PBXNativeTarget "One Support Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84662B261C69ECE10017708A /* Debug */,
+				84662B271C69ECE10017708A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84662B0E1C69ECE10017708A /* Project object */;
+}
